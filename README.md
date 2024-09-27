@@ -113,13 +113,19 @@ Please refer to [Recommended Branches](#-recommended-branches) to find your pref
 |   `dev-c3`   | https://dev-c3.sunnypilot.ai     |
 
 Requires further assistance with software installation? Join the [sunnypilot Discord server](https://discord.sunnypilot.com) and message us in the `#installation-help` channel.
-
-comma three:
+  </details>
+  <details><summary>Over SSH (Advanced)</summary>
+    
+comma three
 ------
 * [`release-c3`](https://github.com/sunnyhaibin/openpilot/tree/release-c3):
 
   ```
-  cd /data && rm -rf ./openpilot && git clone -b release-c3 --recurse-submodules https://github.com/sunnyhaibin/sunnypilot.git openpilot && cd openpilot && sudo reboot
+  cd /data &&
+  rm -rf ./openpilot &&
+  git clone -b release-c3 --recurse-submodules https://github.com/sunnyhaibin/sunnypilot.git openpilot &&
+  cd openpilot &&
+  sudo reboot
   ```
 
 After running the command to install the desired branch, your comma device should reboot.
